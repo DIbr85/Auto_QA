@@ -78,3 +78,4 @@ class RadioButtonPage(BasePage):
 
     def get_output_result(self):
         return self.element_is_present(self.locators.OUTPUT_RESULT).text
+
